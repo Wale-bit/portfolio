@@ -199,7 +199,7 @@ export const mySocials = [
   {
     name: "WhatsApp",
     icon: "/assets/socials/whatsApp.svg",
-    href: "https://wa.me/your-number",
+    href: "https://wa.me/+2349093143161",
   },
 ];
 

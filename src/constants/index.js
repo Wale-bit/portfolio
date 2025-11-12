@@ -46,7 +46,7 @@ export const myProjects = [
     "Automated background auction scheduling tasks with cron jobs, handling auction start/end times and bid winner selection.",
     "Deployed via cpanel with environment-based configurations for reliable performance in both staging and production environments."
   ],
-    href: "carhubauctions.com",
+    href: "https://carhubauctions.com",
     logo: "",
     image: "/assets/projects/carhub.png",
     tags: [

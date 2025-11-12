@@ -182,7 +182,25 @@ export const myProjects = [
       },
     ],
   },
-  
+
+];
+
+export const mySocials = [
+  {
+    name: "LinkedIn",
+    icon: "/assets/socials/linkedIn.svg",
+    href: "https://www.linkedin.com/in/your-profile",
+  },
+  {
+    name: "Instagram",
+    icon: "/assets/socials/instagram.svg",
+    href: "https://www.instagram.com/your-profile",
+  },
+  {
+    name: "WhatsApp",
+    icon: "/assets/socials/whatsApp.svg",
+    href: "https://wa.me/your-number",
+  },
 ];
 
 export const experiences = [

@@ -9,11 +9,12 @@ const ProjectDetails = ({
   closeModal,
 }) => {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 flex items-start justify-center w-full h-full p-4 overflow-y-auto backdrop-blur-sm">
       <motion.div
-        className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+        className="relative w-full max-w-2xl my-8 border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
+        exit={{ opacity: 0, scale: 0.5 }}
       >
         <button
           onClick={closeModal}
@@ -25,9 +26,11 @@ const ProjectDetails = ({
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>
-          {subDescription.map((subDesc, index) => (
-            <p className="mb-3 font-normal text-neutral-400">{subDesc}</p>
-          ))}
+          <div className="space-y-3">
+            {subDescription.map((subDesc, index) => (
+              <p key={index} className="font-normal text-neutral-400">{subDesc}</p>
+            ))}
+          </div>
           <div className="flex items-center justify-between mt-4">
             <div className="flex gap-3">
               {tags.map((tag) => (

@@ -5,10 +5,8 @@ export const myProjects = [
     description: "A modern, interactive online vehicle auction platform built with React and Node.js.",
     subDescription: [
     "Developed a dynamic marketplace where users, dealers, and admins can buy, sell, and bid on vehicles in real time.",
-    "Frontend built using React to deliver a fast, interactive Single Page Application (SPA) experience with seamless navigation and live auction updates.",
     "Backend powered by Node.js and Express, providing a secure REST API for managing users, vehicles, listings, and auction operations.",
     "Implemented real-time bidding and notifications using Socket.io, ensuring users receive instant updates during live auctions.",
-    "Integrated MongoDB for efficient data storage and retrieval, supporting scalable operations for thousands of listings and users.",
     "Set up authentication and role-based access control using Passport, enabling secure login for customers, dealers, and administrators.",
     "Automated background auction scheduling tasks with cron jobs, handling auction start/end times and bid winner selection.",
     "Deployed via cpanel with environment-based configurations for reliable performance in both staging and production environments."

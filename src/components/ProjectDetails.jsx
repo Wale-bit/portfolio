@@ -38,7 +38,7 @@ const ProjectDetails = ({
                   key={tag.id}
                   src={tag.path}
                   alt={tag.name}
-                  className="rounded-lg size-10 hover-animation"
+                  className="rounded-lg size-10"
                 />
               ))}
             </div>
